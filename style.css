@@ -221,20 +221,19 @@ border-radius: 25px;
     padding: 0;
     margin: 0 auto;
   }
+  .left {
+    padding-right: 28vh;
+  }
 
   .left p {
     padding-top: 2vh;
   }
-  
-  .left {
-    padding-right: 32vh;
-  }
-  
+
   .right img {
     height: 45vh;
   }
-  
 
+  
 }
 
 @media (max-width: 900px) {
