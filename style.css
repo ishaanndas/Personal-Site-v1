@@ -227,7 +227,11 @@ border-radius: 25px;
   }
   
   .left {
-    padding-right: 38vh;
+    padding-right: 42vh;
+  }
+  
+  .right img {
+    height: 45vh;
   }
   
 
