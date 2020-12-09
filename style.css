@@ -212,7 +212,7 @@ border-radius: 25px;
 
 
 
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
   .main-container {
     padding: 6vh;
   }
@@ -224,6 +224,10 @@ border-radius: 25px;
 
   .left p {
     padding-top: 2vh;
+  }
+  
+  .left {
+    padding-right: 38vh;
   }
 }
 
