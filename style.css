@@ -232,6 +232,11 @@ border-radius: 25px;
   .right img {
     height: 45vh;
   }
+  
+  .socials {
+    font-size: 4vh;
+  }
+
 
   
 }
