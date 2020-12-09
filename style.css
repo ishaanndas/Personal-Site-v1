@@ -15,7 +15,7 @@ body {
 }
 
 .main-container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
@@ -257,6 +257,7 @@ border-radius: 25px;
     padding-bottom: 30vh;
     padding-top: 30vh;
     height: 115vh;
+    margin-top: 10vh;
   }
 
   .left {
