@@ -229,6 +229,10 @@ border-radius: 25px;
   .left {
     padding-right: 38vh;
   }
+  
+   .main-container {
+    max-width: 1200px;
+    }
 }
 
 @media (max-width: 900px) {
