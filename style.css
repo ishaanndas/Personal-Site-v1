@@ -216,28 +216,6 @@ border-radius: 25px;
 }
 
 
-
-@media (max-width: 1500px) {
-  .main-container {
-    padding: 6vh;
-  }
-
-  .left {
-    margin-bottom: 10vh;
-  }
-  
-  .left p {
-    padding-top: 2vh;
-  }
-
-  
-
-
-  
-}
-
-
-
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
