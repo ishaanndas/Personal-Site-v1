@@ -91,7 +91,7 @@ a {
 
 .right img {
   height: 280px;
-  box-shadow: 5px 5px 30px rgb(170, 170, 170);
+  box-shadow: 0px 0px 30px rgb(170, 170, 170);
   border-radius: 10px;
 }
 
