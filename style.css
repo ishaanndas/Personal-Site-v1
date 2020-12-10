@@ -90,15 +90,16 @@ a {
 }
 
 .right img {
-  height: 35vh;
-  box-shadow: 25px 25px 0px rgb(190, 190, 190);
+  height: 280px;
+  box-shadow: 5px 5px 30px rgb(170, 170, 170);
+  border-radius: 10px;
 }
 
 .socials {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 3vh;
+  font-size: 30px;
   padding-top: 5vh;
   color: #a1a1a1;
   cursor: pointer;
@@ -229,14 +230,8 @@ border-radius: 25px;
     padding-top: 2vh;
   }
 
-  .right img {
-    height: 45vh;
-  }
-
   
-  .socials {
-    font-size: 4vh;
-  }
+
 
   
 }
@@ -259,7 +254,7 @@ border-radius: 25px;
   }
 
   .socials {
-    font-size: 2.7vh;
+    font-size: 25px;
 
   }
 
@@ -311,8 +306,8 @@ border-radius: 25px;
   }
 
   .right img {
-    height: 30vh;
-    box-shadow: 12px 12px 0px rgb(190, 190, 190);
+    height: 250px;
+    box-shadow: 0px 0px 10px rgb(170, 170, 170);
   }
   
 
