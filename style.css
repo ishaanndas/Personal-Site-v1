@@ -19,14 +19,19 @@ body {
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
-  height: 100vh;
+  height: 100%;
   align-items: center;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 6vh;
+  margin-bottom: 10vh;
 }
 
 .left {
-  padding-right: 28vh;
+  margin-bottom: 10vh;
+  max-width: 700px;
 }
 
 h1 {
@@ -78,9 +83,9 @@ a {
 .left p {
   padding-bottom: 7vh;
   font-size: 23px;
-  padding-right: 7vh;
+  padding-right: 6vh;
   padding-top: 2vh;
-  line-height: 5.5vh;
+  line-height: 50px;
   color: rgb(61, 61, 61);
 }
 
@@ -196,7 +201,6 @@ width: 100%;
   -webkit-box-shadow: 0px 9px 113px -41px rgba(0,0,0,0.5);
 -moz-box-shadow: 0px 9px 113px -41px rgba(0,0,0,0.5);
 box-shadow: 0px 9px 113px -41px rgba(0,0,0,0.5);
-Copy Text
 transition: ease 0.3s;
 border-radius: 25px;
 }
@@ -218,13 +222,9 @@ border-radius: 25px;
   }
 
   .left {
-    padding: 0;
-    margin: 0 auto;
+    margin-bottom: 10vh;
   }
-  .left {
-    padding-right: 28vh;
-  }
-
+  
   .left p {
     padding-top: 2vh;
   }
@@ -232,11 +232,11 @@ border-radius: 25px;
   .right img {
     height: 45vh;
   }
+
   
   .socials {
     font-size: 4vh;
   }
-
 
   
 }
@@ -246,6 +246,8 @@ border-radius: 25px;
     max-width: 1100px;
   }
 }
+
+
 
 @media (max-width: 900px) {
   h1 {
@@ -268,11 +270,7 @@ border-radius: 25px;
     padding: 3vh;
     align-items: center;
     max-width: 350px;
-    padding-bottom: 30vh;
-    padding-top: 30vh;
-    height: 115vh;
-    margin-top: 6vh;
-    margin-bottom: 4vh;
+    margin-bottom: 6vh;
   }
 
   .left {
