@@ -38,10 +38,6 @@ h1 {
   font-size: 60px;
 }
 
-.left h1 {
-  padding-right: 2vh;
-}
-
 span {
   color: #7e71ff;
 }
@@ -84,7 +80,6 @@ a {
 .left p {
   padding-bottom: 7vh;
   font-size: 23px;
-  padding-right: 6vh;
   padding-top: 2vh;
   line-height: 50px;
   color: rgb(61, 61, 61);
