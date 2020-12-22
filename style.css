@@ -51,13 +51,13 @@ span {
   margin-right: 1.5vh;
   margin-left: 1.5vh;
   font-weight: 600;
-  background: white;
+  background: none;
   color: #7e71ff;
   border: 3px solid #7e71ff;
 }
 
 .resume {
-  background: white;
+  background: none;
   color: #7e71ff;
   border: 3px solid #7e71ff;
 }
