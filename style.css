@@ -121,6 +121,7 @@ a {
   max-width: 1200px;
   align-items: center;
   justify-content: center;
+  padding-bottom: 10vh;
 }
 
 .projects h2 {
@@ -200,6 +201,23 @@ width: 100%;
 box-shadow: 0px 9px 113px -41px rgba(0,0,0,0.5);
 transition: ease 0.3s;
 border-radius: 25px;
+}
+
+.fa-arrow-circle-up {
+  border: none;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 35px;
+  color: rgb(148, 148, 148);
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.fa-arrow-circle-up:hover{
+  transition: .3s ease;
+  color: #7e71ff;
 }
 
 
