@@ -144,7 +144,7 @@ a {
 .project-cards {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  gap: 65px;
+  gap: 85px;
   margin-top: 10vh;
   
 }
