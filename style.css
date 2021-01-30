@@ -290,6 +290,13 @@ border-radius: 25px;
   color: #ffff;
   font-size: 20px;
   cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hero input[type="submit"]:hover,
+.hero input[type="button"]:hover {
+  background: #635ac7;
+  transition: 0.3s ease;
 }
 
 @media (min-width: 2150px) {
