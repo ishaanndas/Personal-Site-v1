@@ -215,6 +215,8 @@ border-radius: 25px;
   color: rgb(148, 148, 148);
   cursor: pointer;
   transition: .3s ease;
+  margin-top: 60px;
+  padding-bottom: 10vh;
 }
 
 .fa-arrow-circle-up:hover{
@@ -222,6 +224,73 @@ border-radius: 25px;
   color: #7e71ff;
 }
 
+/* form */
+.form {
+  max-width: 850px;
+  margin: 0 auto;
+  margin-bottom: 10vh;
+  margin-top: 15vh;
+  height: 80vh;
+}
+
+.form h2 {
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 20px;
+  color: #7e71ff
+} 
+
+.hero form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 25px;
+}
+
+.hero label {
+  display: block;
+}
+
+.hero {
+  margin-bottom: 15vh;
+	max-width: 600px;
+	margin: 10px auto;
+  font: "Source Sans Pro", sans-serif;
+  color: black;
+  background: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.hero input, .hero textarea{
+  width: 100%;
+  outline: none;
+  background: #F5F5F5;
+  border: none;
+  padding: 3%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.hero input {
+  height: 60px;
+}
+
+.hero label {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+}
+
+.hero input[type="submit"],
+.hero input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+  background: #7E71FF;
+  border-radius: 8px;
+  color: #ffff;
+  font-size: 20px;
+  cursor: pointer;
+}
 
 @media (min-width: 2150px) {
 
@@ -246,6 +315,9 @@ border-radius: 25px;
 
   }
 
+  .hero {
+    max-width: 300px;
+  }
 
   .main-container {
     flex-direction: column;
@@ -285,7 +357,7 @@ border-radius: 25px;
     padding-top: 5vh;
   }
 
-  .projects h2 {
+  .h2 {
     padding-top: 6vh;
     font-size: 35px;
   }
