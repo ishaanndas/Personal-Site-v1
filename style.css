@@ -267,6 +267,7 @@ border-radius: 25px;
   border: none;
   padding: 3%;
   font-family: "Source Sans Pro", sans-serif;
+  border-radius: 5px;
 }
 
 .hero input {
