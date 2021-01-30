@@ -260,14 +260,14 @@ border-radius: 25px;
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.hero input, .hero textarea{
+.hero input, .hero textarea {
   width: 100%;
   outline: none;
   background: #F5F5F5;
   border: none;
   padding: 3%;
   font-family: "Source Sans Pro", sans-serif;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .hero input {
